@@ -1,10 +1,11 @@
-![SS5](https://github.com/user-attachments/assets/8289585d-5c55-4bc8-993a-6db82d76ce64)
+
 # CHESS - POP
 
 A 5x5 Grid Multiplayer chess game that majorily focuses on two piecec i.e Pawns(P1,P2,P3) and Heroes(H1, H2,H3) with limited sets of rules for the two categories. 
 A Multiplayer game that is fun to play and if any of the player goes out of move the other player wins the game.
 
-![SS5](https://github.com/user-attachments/assets/58d18f46-be9d-446c-a74c-f63f6e814ca3)
+![image](https://github.com/user-attachments/assets/7b0393c9-b86c-4d7a-a6ad-7b377893162b)
+
 
 
 # TECH STACK USED:
@@ -65,21 +66,27 @@ npm install ws
 
 ## 1) STARTING THE GAME
 
-![SS1](https://github.com/user-attachments/assets/09303db2-b562-4cbd-8815-cc10cc1eafa1)
+![image](https://github.com/user-attachments/assets/4f3b9d11-c603-456d-b82c-990ee593da63)
+
 
 ## 2) Performing Valid Moves
 
-![SS2](https://github.com/user-attachments/assets/e0081b5e-7726-437c-8ea0-ec7d69b425c9)
+![image](https://github.com/user-attachments/assets/4562eda8-eb74-489c-911b-78b2c7e8f537)
+
 
 ## 3) RealTime Update with 0ms network respons
-![SS3](https://github.com/user-attachments/assets/06862940-4046-44e6-94fd-05a926dcaf7c)
+![image](https://github.com/user-attachments/assets/c933ca62-bd6e-4638-9fdc-7dbef2bf77c9)
+
 
 ## 4) If Any Player goes out of Moves Then it will display which player won at top.
-![ss4](https://github.com/user-attachments/assets/8a12fa77-d97e-4559-b5a0-0bf2d93fe577)
+![image](https://github.com/user-attachments/assets/49e33052-5613-4ceb-8f73-cc7784d3db3c)
+
 
 ## 5) Reset Game option
-![SS5](https://github.com/user-attachments/assets/e16d2c98-2f89-4516-99cf-6b4246dcbf46)
+![image](https://github.com/user-attachments/assets/80179ae3-aa8d-4413-b22f-e55fcb52fbba)
+
 
 ## 6) If Anyone player left the game it will notify the other player.
-![SS6](https://github.com/user-attachments/assets/1bd0dc9b-9b8d-420c-add7-b56053dde2d3)
+![image](https://github.com/user-attachments/assets/95ce00ad-0c5d-4c5c-847e-ee73979198f3)
+
 
