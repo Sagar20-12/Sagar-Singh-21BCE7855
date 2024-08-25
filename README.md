@@ -20,15 +20,8 @@ NODEJS ✅
 
 ## BASIC ARCHITECTURE LAYOUT OF THE DIRECTORY
 
-your-project/
-│
-├── index.html
-├── styles.css
-├── script.js
-│
-└── server/
-    ├── package.json
-    └── server.js
+![image](https://github.com/user-attachments/assets/46b172e0-2fec-4b17-a979-899dffed90a2)
+
 
 # How to run?
 
