@@ -1,8 +1,11 @@
-
+![SS5](https://github.com/user-attachments/assets/8289585d-5c55-4bc8-993a-6db82d76ce64)
 # CHESS - POP
 
 A 5x5 Grid Multiplayer chess game that majorily focuses on two piecec i.e Pawns(P1,P2,P3) and Heroes(H1, H2,H3) with limited sets of rules for the two categories. 
 A Multiplayer game that is fun to play and if any of the player goes out of move the other player wins the game.
+
+![SS5](https://github.com/user-attachments/assets/58d18f46-be9d-446c-a74c-f63f6e814ca3)
+
 
 # TECH STACK USED:
 
@@ -17,6 +20,13 @@ REACT ✅
 EXPRESS ✅
 
 NODEJS ✅
+
+SOCKET.IO ✅
+
+# PROJECT ARCHITECTURE
+
+![image](https://github.com/user-attachments/assets/3bd83a7d-95e6-467f-8fbf-4a844c51f5b6)
+
 
 ## BASIC ARCHITECTURE LAYOUT OF THE DIRECTORY
 
