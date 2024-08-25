@@ -24,7 +24,7 @@ NODEJS ✅
 
 SOCKET.IO ✅
 
-# PROJECT ARCHITECTURE
+# PROJECT ARCHITECTURE (SERVER SIDE AND CLIENT SIDE IMPLEMENTATION)
 
 ![image](https://github.com/user-attachments/assets/3bd83a7d-95e6-467f-8fbf-4a844c51f5b6)
 
@@ -61,6 +61,25 @@ npm install ws
 5) Copy the same localhost URL and navigate to different browser window and open in new tab.
 
 6) Get Ready to play with two player.
+
+# WEB SOCKET INCLUSION IN APP.JS
+
+```
+// const express = require('express');
+const http = require('http');
+const WebSocket = require('ws');
+const path = require('path');
+
+const app = express();
+const server = http.createServer(app);
+const wss = new WebSocket.Server({ server });
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+```
 
 #SERVICE CONTENTS
 
