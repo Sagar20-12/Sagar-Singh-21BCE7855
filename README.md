@@ -5,10 +5,15 @@ A 5x5 Grid Multiplayer chess game that majorily focuses on two piecec i.e Pawns(
 A Multiplayer game that is fun to play and if any of the player goes out of move the other player wins the game.
 
 # TECH STACK USED:
-HTML 
-CSS 
+
+HTML
+
+CSS
+
 JAVASCRIPT
+
 REACT
+
 NODEJS
 # How to run?
 1) Clone the repository using git clone ''
