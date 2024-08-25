@@ -49,4 +49,5 @@ NODEJS
 ![SS5](https://github.com/user-attachments/assets/e16d2c98-2f89-4516-99cf-6b4246dcbf46)
 
 ## 6) If Anyone player left the game it will notify the other player.
-![SS5](https://github.com/user-attachments/assets/120c5aae-893f-45e5-aaf9-6660afa46eb1)
+![SS6](https://github.com/user-attachments/assets/1bd0dc9b-9b8d-420c-add7-b56053dde2d3)
+
