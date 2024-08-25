@@ -65,7 +65,7 @@ npm install ws
 # WEB SOCKET INCLUSION IN APP.JS
 
 ```
-// const express = require('express');
+const express = require('express');
 const http = require('http');
 const WebSocket = require('ws');
 const path = require('path');
@@ -88,7 +88,7 @@ app.get('*', (req, res) => {
 ![image](https://github.com/user-attachments/assets/4f3b9d11-c603-456d-b82c-990ee593da63)
 
 
-## 2) Performing Valid Moves
+## 2) Performing Valid Moves (Ensuring within 5x5 grid bounds)
 
 ![image](https://github.com/user-attachments/assets/4562eda8-eb74-489c-911b-78b2c7e8f537)
 
@@ -97,7 +97,7 @@ app.get('*', (req, res) => {
 ![image](https://github.com/user-attachments/assets/c933ca62-bd6e-4638-9fdc-7dbef2bf77c9)
 
 
-## 4) If Any Player goes out of Moves Then it will display which player won at top.
+## 4) EDGE CASE HANDLING (If Any Player goes out of Moves Then it will display which player won at top.)
 ![image](https://github.com/user-attachments/assets/49e33052-5613-4ceb-8f73-cc7784d3db3c)
 
 
