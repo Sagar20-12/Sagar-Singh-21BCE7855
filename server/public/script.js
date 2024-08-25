@@ -1,4 +1,7 @@
 // Create a gameboard for all the possible states
+const restartGame = document.getElementById('restartGame');
+restartGame.addEventListener('click', startNewGame);
+
 let gameState = {
     currentPlayer: 'A',
     grid: [
@@ -45,6 +48,7 @@ function initWebSocket() {
                 break;
             case 'start':
                 gameState.currentPlayer = data.currentPlayer;
+                gameState.grid = data.gameState.grid;
                 renderGrid();
                 updateGameStatus();
                 break;
@@ -82,7 +86,11 @@ function applyMove(move) {
     gameState.grid[toRow][toCol] = piece;
     gameState.grid[fromRow][fromCol] = null;
     addMoveToHistory(piece, fromRow, fromCol, toRow, toCol);
+    
+    // Check for win condition after the move
+    checkForWin();
 }
+
 
 // Implemented The out of bound grid call 
 function renderGrid() {
@@ -257,14 +265,22 @@ function checkForWin() {
     }
 }
 
+
 // Update game status display
 function updateGameStatus() {
-    if (!myPlayer) {
-        gameStatusDisplay.textContent = 'Waiting for opponent...';
-    } else if (gameState.currentPlayer === myPlayer) {
-        gameStatusDisplay.textContent = 'Your turn';
+    // Check if there's a winner
+    if (gameState.winner) {
+        gameStatusDisplay.textContent = `Player ${gameState.winner} wins!`;
+        newGameButton.style.display = 'block'; // Show the new game button
     } else {
-        gameStatusDisplay.textContent = 'Opponent\'s turn';
+        // Update status based on the current player and whether the player is connected
+        if (!myPlayer) {
+            gameStatusDisplay.textContent = 'Waiting for opponent...';
+        } else if (gameState.currentPlayer === myPlayer) {
+            gameStatusDisplay.textContent = 'Your turn';
+        } else {
+            gameStatusDisplay.textContent = 'Opponent\'s turn';
+        }
     }
     currentPlayerDisplay.textContent = `Current Player: ${gameState.currentPlayer}`;
 }
@@ -325,7 +341,7 @@ function startNewGame() {
     selectedCharacter = null;
     validMoves = [];
     moveHistoryList.innerHTML = '';
-    restartGame.style.display = 'none';
+    gameStatusDisplay.textContent = 'Waiting for opponent...'; // Reset status
     renderGrid();
     updateGameStatus();
 }
