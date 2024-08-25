@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="connect-src 'self' ws://localhost:3000;">
+    <title>ASSIGNMENT - VIT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Chess-POP</h1>
+        <div id="currentPlayer"></div>
+        <div id="gameStatus"></div>
+        <div id="gameGrid" class="game-grid"></div>
+        <button id="restartGame">Restart Game</button>
+        <div class="move-history">
+            <h2>Move History</h2>
+            <ul id="moveHistory"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
