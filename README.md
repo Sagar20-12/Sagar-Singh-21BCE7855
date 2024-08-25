@@ -6,28 +6,57 @@ A Multiplayer game that is fun to play and if any of the player goes out of move
 
 # TECH STACK USED:
 
-HTML
+HTML ✅
 
-CSS
+CSS ✅
 
-JAVASCRIPT
+JAVASCRIPT ✅
 
-REACT
+REACT ✅
 
-EXPRESS
+EXPRESS ✅
 
-NODEJS
+NODEJS ✅
+
+## BASIC ARCHITECTURE LAYOUT OF THE DIRECTORY
+
+your-project/
+│
+├── index.html
+├── styles.css
+├── script.js
+│
+└── server/
+    ├── package.json
+    └── server.js
 
 # How to run?
+
 1) Clone the repository using git clone 'https://github.com/Sagar20-12/Sagar-Singh-21BCE7855.git'.
+
+2) Open terminal follow below steps:
+
+a) Make Server Directory
+
+mkdir server
+
+cd server
+
+b. Initialize a new Node.js project in this "server" directory:
+
+npm init -y
+
+c. Install the WebSocket library:
+
+npm install ws
    
-2) Jump to server directory using cd server 'Project/ cd server'.
+3) Jump to server directory using cd server 'Project/ cd server'.
 
-3) Start the server using 'node server.js' and redirect to the localhost.
+4) Start the server using 'node server.js' and redirect to the localhost.
 
-4) Copy the same localhost URL and navigate to different browser window and open in new tab.
+5) Copy the same localhost URL and navigate to different browser window and open in new tab.
 
-5) Get Ready to play with two player.
+6) Get Ready to play with two player.
 
 #SERVICE CONTENTS
 
