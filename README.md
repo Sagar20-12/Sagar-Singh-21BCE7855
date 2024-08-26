@@ -1,4 +1,4 @@
-
+![SS9](https://github.com/user-attachments/assets/676683a6-ca71-4f60-baec-1b2169b9c98d)
 # CHESS - POP
 
 A 5x5 Grid Multiplayer chess game that majorily focuses on two piecec i.e Pawns(P1,P2,P3) and Heroes(H1, H2,H3) with limited sets of rules for the two categories. 
@@ -91,6 +91,18 @@ app.get('*', (req, res) => {
 ## 2) Performing Valid Moves (Ensuring within 5x5 grid bounds)
 
 ![image](https://github.com/user-attachments/assets/4562eda8-eb74-489c-911b-78b2c7e8f537)
+
+# PAWN MOVES ONLY IN GREEN HIGHLIGHTED AREA
+
+![SS7](https://github.com/user-attachments/assets/fda4a414-48df-4de2-885e-d9dc8beb6e23)
+
+# HERO 1 WILL MOVE IN HIS GREEN HIGHLIGHTED AREA( TWO STEP FORWARD, BACKWARD, RIGHT, LEFT)
+
+![SS9](https://github.com/user-attachments/assets/ae4a760e-c722-4a17-9cb7-991460fef45a)
+
+# HERO 2 WILL MOVE IN HIS GREEN HIGHLIGHTED AREA (TWO STEPS RIGHT FORWARD DIAGONAL, LEFT FORWARD DIAGONAL, LEFT BACKWARD DIAGONAL, RIGHT BACKWORD DIAGONAL)
+
+![SS8](https://github.com/user-attachments/assets/18bb4c01-c5ba-4d3d-aee4-1b49ce9a8e51)
 
 
 ## 3) RealTime Update with 0ms network respons
