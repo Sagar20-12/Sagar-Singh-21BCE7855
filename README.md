@@ -1,4 +1,4 @@
-![SS9](https://github.com/user-attachments/assets/676683a6-ca71-4f60-baec-1b2169b9c98d)
+
 # CHESS - POP
 
 A 5x5 Grid Multiplayer chess game that majorily focuses on two piecec i.e Pawns(P1,P2,P3) and Heroes(H1, H2,H3) with limited sets of rules for the two categories. 
